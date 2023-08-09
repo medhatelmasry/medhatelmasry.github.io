@@ -1,685 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- https://medhatelmasry.github.io/ -->
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>medhat.ca</title>
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
     />
-    <link
-      rel="stylesheet"
-      href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css"
-    />
-    <script
-      type="text/javascript"
-      src="https://code.jquery.com/jquery.min.js"
-    ></script>
-    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-      // Default tab
-      $(document).ready(function () {
-        $("#myTab li:eq(0) a").tab("show");
-      });
-    </script>
-    <style type="text/css">
-      .bs-container {
-        margin: 20px;
-      }
-    </style>
   </head>
   <body>
-    <div class="bs-container container">
-      <div class="row">
-        <div class="col-xs-2">
-          <h1 style="display: inline">medhat.ca</h1>
-        </div>
-        <div class="col-xs-2">
-          <img
-            src="images/egypt_115x110.png"
-            alt="Egyptian Flag"
-            class="hidden-xs hidden-sm"
-          />
-        </div>
-        <div class="col-xs-8"></div>
-      </div>
-      <ul class="nav nav-pills" id="myTab">
-        <li><a data-toggle="pill" href="#arabic-tab">Arabic</a></li>
-        <li><a data-toggle="pill" href="#english-tab">English</a></li>
-        <li class="dropdown">
-          <a data-toggle="dropdown" class="dropdown-toggle" href="#"
-            >Other Sections<b class="caret"></b
-          ></a>
-          <ul class="dropdown-menu">
-            <li>
-              <a data-toggle="tab" href="#youtube-tab">Youtube Channels</a>
-            </li>
-            <li><a data-toggle="tab" href="#facebook-tab">Facebook</a></li>
-            <li><a data-toggle="tab" href="#coptic-tab">Coptic</a></li>
-            <li><a data-toggle="tab" href="#movies-tab">Movies</a></li>
-            <li><a data-toggle="tab" href="#video-tab">Video</a></li>
-            <li><a data-toggle="tab" href="#music-tab">Music</a></li>
-            <li><a data-toggle="tab" href="#technology-tab">Technology</a></li>
-            <li><a data-toggle="tab" href="#travel-tab">Travel</a></li>
-            <li><a data-toggle="tab" href="#meetup-tab">Meetup</a></li>
-            <li><a data-toggle="tab" href="#archives-tab">Archives</a></li>
-            <li><a data-toggle="tab" href="#sourdough-tab">Sourdough</a></li>
-            <li><a data-toggle="tab" href="#cooking-tab">Cooking</a></li>
-            <li>
-              <a data-toggle="tab" href="#blackberry-tab">Blackberry Bakes</a>
-            </li>
-            <li><a data-toggle="tab" href="#mvp-tab">MVP</a></li>
-            <li><a data-toggle="tab" href="#church-tab">Church</a></li>
-            <li><a href="recruiters.html" target="_blank">Recruiters</a></li>
-          </ul>
-        </li>
-      </ul>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">MEDHAT مدحت</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-      <div class="tab-content">
-        <div id="arabic-tab" class="tab-pane fade in active">
-          <h3>Arabic</h3>
-          <ul>
-            <li>
-              <a
-                href="http://www.bbc.co.uk/arabic/tvandradio/2011/01/000000_livetv.shtml"
-                >BBC Arabic</a
-              >
-            </li>
-            <li>
-              <a href="http://www.aljazeera.net/livestreaming/pages"
-                >Aljazeera Arabic</a
-              >
-            </li>
-            <li>
-              <a href="http://www.egyptindependent.com/"
-                >Masr el Youm or Egypt Independent newspaper</a
-              >
-            </li>
-            <li><a href="http://www.hd44.com/">HD44</a></li>
-            <li><a href="http://www.youm7.com/">Alyoum Al saab3</a></li>
-          </ul>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link mx-2 active"
+                  aria-current="page"
+                  href="arabic.html"
+                  >Arabic</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="english.html">English</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="cooking.html">Cooking</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link mx-2 dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Other
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href="archives.html">Archives</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="church.html">Church</a>
+                  </li>
+                  <li><a class="dropdown-item" href="msmvp.html">MVP</a></li>
+                  <li>
+                    <a class="dropdown-item" href="recruiters.html"
+                      >Recruiters</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="travel.html">Travel</a>
+                  </li>
+                  <li><a class="dropdown-item" href="tv.html">TV</a></li>
+                  <li>
+                    <a class="dropdown-item" href="video.html"
+                      >Video/Audio/Images</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </div>
-
-        <div id="english-tab" class="tab-pane fade">
-          <h3>English</h3>
-          <ul>
-            <li>
-              <a href="http://www.aljazeera.com/watch_now/"
-                >Aljazeera English</a
-              >
-            </li>
-            <li><a href="http://www.cbc.ca/">CBC Canada</a></li>
-            <li>
-              <a href="http://www.bbc.co.uk/news/world-17434527"
-                >2 minutes news bulletin from the BBC</a
-              >
-            </li>
-            <li>
-              <a href="https://www.bbc.co.uk/programmes/p002vsmz"
-                >5 minutes news bulletin from the BBC</a
-              >
-            </li>
-            <li>
-              <a href="http://www.bbc.co.uk/radio/player/bbc_world_service"
-                >BBC live audio</a
-              >
-            </li>
-          </ul>
-        </div>
-
-        <div id="youtube-tab" class="tab-pane fade">
-          <h3>YouTube Channels</h3>
-          <ul>
-            <li>
-              <a href="http://www.youtube.com/user/ONtveg">On Tv Egypt</a>
-            </li>
-            <li>
-              <a href="http://www.youtube.com/user/CBCEgypt">CBC Egypt</a>
-            </li>
-            <li>
-              <a href="http://www.youtube.com/user/CBCExtra">CBC Egypt eXtra</a>
-            </li>
-            <li>
-              <a href="https://www.youtube.com/user/alnahareg">Al Nahar TV</a>
-            </li>
-            <li><a href="https://www.youtube.com/user/MBCMASR">MBC MASR</a></li>
-            <li>
-              <a href="https://www.youtube.com/user/Dreamtveg"
-                >Dream TV Egypt</a
-              >
-            </li>
-            <li>
-              <a href="https://www.youtube.com/user/altahrirtvchannel"
-                >Al tahrir tv channel</a
-              >
-            </li>
-          </ul>
-        </div>
-
-        <div id="facebook-tab" class="tab-pane fade">
-          <h3>Facebook</h3>
-          <ul>
-            <li>
-              <a href="https://www.facebook.com/AkherKalam"
-                >Yosri Foda on Facebook</a
-              >
-            </li>
-            <li>
-              <a href="https://www.facebook.com/cbcegypt?fref=ts"
-                >CBC Egypt on Facebook</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.facebook.com/TAHRIR.CHANNEL?sk=app_200128966672245"
-                >Tahrir TV Channel on Facebook</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.facebook.com/pages/%D9%85%D8%AD%D9%85%D9%88%D8%AF-%D8%B3%D8%B9%D8%AF-mahmoud-saadwebscom/32955596693"
-                >Mahmoud Saad facebook</a
-              >
-            </li>
-            <li>
-              <a href="https://www.facebook.com/cbc.HonaAl3asema"
-                >Hona El 3asema facebook (Lamees Hariri – Amr Adib’s wife)</a
-              >
-            </li>
-          </ul>
-        </div>
-
-        <div id="coptic-tab" class="tab-pane fade">
-          <h3>Coptic</h3>
-          <ul>
-            <li><a href="http://www.fathermakary.net/">Father Makary</a></li>
-            <li><a href="https://www.logoschannel.com/">Logos</a></li>
-            <li>
-              <a
-                href="https://www.youtube.com/watch?v=-oTO35Eh5SQ&list=PLC-4wHwNowg8pIELg467HXG74TgjmdELE"
-                >Pope Kirolos</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.youtube.com/watch?v=g0SeZuuGpC0&list=PLC-4wHwNowg8pIELg467HXG74TgjmdELE&index=1"
-                >Fr. Abdel Messih el Habashi, The Ethiopian Monk</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.youtube.com/watch?v=sBQY_18zTmw&list=PLC-4wHwNowg8pIELg467HXG74TgjmdELE&index=3"
-                >St. Anba Metaos El-Fakhoury</a
-              >
-            </li>
-          </ul>
-        </div>
-
-        <div id="movies-tab" class="tab-pane fade">
-          <h3>Movies</h3>
-          <ul>
-            <li>
-              <a href="http://www.aflamedia.com/movies/aflam9.htm"
-                >Watch online Free Egyptian movies</a
-              >
-            </li>
-            <li>
-              <a href="http://www.sotwesoora.tv/"
-                >Sotwesoora Watch Free Egyptian Movies and TV Series</a
-              >
-            </li>
-            <li><a href="http://www.slice.ca">Slice.ca</a></li>
-            <li><a href="http://www.bravotv.com/">BraveTv.com</a></li>
-            <li><a href="http://www.aetv.com/">AETv.com</a></li>
-            <li><a href="http://www.amctv.com/">AMC TV</a></li>
-            <li><a href="http://www.history.ca/">history.ca</a></li>
-            <li><a href="http://www.hbo.com/">HBO</a></li>
-          </ul>
-        </div>
-
-        <div id="video-tab" class="tab-pane fade">
-          <h3>Video</h3>
-          <ul>
-            <li>
-              <a href="https://www.youtube.com/watch?v=1hNP_FjjNO4"
-                >How To Live Stream on YouTube using OBS Studio</a
-              >
-            </li>
-            <li>
-              <a href="https://myconverters.com/en/youtube-downloader/"
-                >Convert from YouTube to MP4</a
-              >
-            </li>
-          </ul>
-        </div>
-
-        <div id="music-tab" class="tab-pane fade">
-          <h3>Music</h3>
-          <ul>
-            <li>
-              <a href="http://mp3skull.com/"
-                >mp3skull.com for downloading music</a
-              >
-            </li>
-            <li>
-              <a href="http://www.downloads.nl/local/en/"
-                >Downloads.nl - Software, Music, Images</a
-              >
-            </li>
-            <li>
-              <a href="http://www.youtube.com/watch?v=YNID5ZSwPQY"
-                >Bouzouki to Ellhnikon (YouTube)</a
-              >
-            </li>
-            <li><a href="http://upchucky.org/">UpChUcKy.OrG</a></li>
-          </ul>
-        </div>
-
-        <div id="technology-tab" class="tab-pane fade">
-          <h3>Technology</h3>
-          <ul>
-            <li>
-              <a href="http://en.savefrom.net/1-how-to-download-youtube-video/"
-                >Online YouTube to mp4 converter</a
-              >
-            </li>
-            <li>
-              <a href="https://y2mate.guru/en3/"
-                >Another online YouTube to mp4 converter</a
-              >
-            </li>
-            <li>
-              <a href="https://heictojpg.com/">Online heic to jpg converter</a>
-            </li>
-          </ul>
-        </div>
-
-        <div id="travel-tab" class="tab-pane fade">
-          <h3>Travel</h3>
-          <ul>
-            <li><a href="http://www.cheapflights.ca">cheapflights.ca</a></li>
-            <li><a href="http://www.cheapoair.ca">cheapoair.ca</a></li>
-            <li><a href="http://www.redtag.ca">redTag.ca</a></li>
-            <li><a href="http://www.travelocity.ca/">travelocity.ca</a></li>
-            <li><a href="http://www.expedia.ca/">expedia.ca</a></li>
-            <li><a href="http://www.tripadvisor.ca/">tripadvisor.ca</a></li>
-            <li>
-              <a href="http://www.hotwire.com/us/index.jsp">hotwire.com</a>
-            </li>
-            <li><a href="http://www.trivago.ca/">trivago.ca</a></li>
-            <li><a href="http://ca.hotels.com/">ca.hotels.com</a></li>
-            <li><a href="http://www.cheaptickets.com/">cheaptickets.com</a></li>
-            <li>
-              <a href="http://www.CheapAirportParking.org/"
-                >CheapAirportParking.org</a
-              >
-            </li>
-            <li>
-              <a href="https://ca.trip.com/">Trip.com</a>
-            </li>
-            <li><a href="http://www.priceline.com/">priceline.com</a></li>
-            <li><a href="http://www.kayak.com/">kayak.com</a></li>
-            <li><a href="http://www.orbitz.com/">orbitz.com</a></li>
-            <li><a href="http://www.ladybug.com/">ladybug.com</a></li>
-            <li><a href="https://skiplagged.com/">skiplagged.com</a></li>
-            <li>
-              <a href="https://abetterrouteplanner.com/"
-                >A better Route Planner EV</a
-              >
-            </li>
-          </ul>
-        </div>
-
-        <div id="meetup-tab" class="tab-pane fade">
-          <h3>Meetup</h3>
-          <ul>
-            <li>
-              <a href="http://www.dotnetfoundation.org/">.NET Foundation</a>
-            </li>
-          </ul>
-        </div>
-
-        <div id="archives-tab" class="tab-pane fade">
-          <h3>Archives</h3>
-          <ul>
-            <li>
-              <a
-                href="http://www.youtube.com/watch?v=zOGFZicEjwg%26feature=related"
-                >Sout El Horeya</a
-              >
-            </li>
-            <li>
-              <a href="http://www.youtube.com/watch?v=4kBChClnky4"
-                >Dina El Wadidi - Zayeno Jesmo</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.youtube.com/watch?feature=player_embedded%26v=XVwN3TtLaJA#!4"
-                >Bassem Youssef - Episode 22</a
-              >
-            </li>
-            <li>
-              <a
-                href="http://www.godvine.com/5-Year-Old-Has-A-Big-Personality-And-A-HUGE-Talent-WOW!-7539.html"
-                >5-Year-Old Has A Big Personality And A HUGE Talent--WOW!</a
-              >
-            </li>
-            <li>
-              <a href="https://www.youtube.com/watch?v=bDki7Vj0oIA"
-                >Celtic Woman A Christmas Celebration</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.youtube.com/watch?list=RDEMEUNf1pH3JYkmwDUyOgVDEQ&params=EAMYATgBSAFYAWILWWZ3bGowZ2JhX2toAQ%253D%253D&v=HsCp5LG_zNE&mode=NORMAL&app=desktop"
-                >Celtic Woman Mix</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.youtube.com/watch?v=TEpaUjA8SJI&feature=youtu.be"
-                >St. Joseph School 1</a
-              >
-            </li>
-            <li>
-              <a href="https://www.youtube.com/watch?v=TEpaUjA8SJI&t=603s"
-                >St. Joseph School 2</a
-              >
-            </li>
-            <li>
-              <a href="https://www.youtube.com/watch?v=ApdjS8QJAdU"
-                >Nazareth School 1</a
-              >
-            </li>
-            <li>
-              <a href="https://www.youtube.com/watch?v=ZYVmg9mmumg"
-                >Nazareth School 2</a
-              >
-            </li>
-            <li>
-              <a href="https://www.youtube.com/watch?v=08OLZ0ZzGso"
-                >Bear Grylls with Barack Obama at Exit Glacier in Alaska</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://vancouversunandprovince.remembering.ca/obituary/james-parry-1078305808"
-                >James Leonard Parry Obituary</a
-              >
-            </li>
-            <li>
-              <a href="https://youtu.be/HTq7vE_5un4"
-                >Boney M - Rivers of Babylon - 1978</a
-              >
-            </li>
-            <!--
-				<li><a href="https://www.cotala.com/49029">Barnston</a></li>
-				<li><a href="https://elikingrealestate.com/mylistings.html/listing.r2470762-44-19452-fraser-way-pitt-meadows-v3y-0a3.92215316">Fraser</a></li>
-				-->
-          </ul>
-        </div>
-
-        <div id="sourdough-tab" class="tab-pane fade">
-          <h3>Sourdough</h3>
-          <ul>
-            <li>
-              <a
-                href="https://solaskincare.com/blogs/news/how-to-make-sourdough"
-                target="_blank"
-                >How to make sourdough from scratch - Sola Skincare</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.youtube.com/watch?v=48Bx3yEAjEo"
-                target="_blank"
-                >1. Sourdough starters with Christine from Sola Skincare</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.youtube.com/watch?v=EUJMwnQhdZQ"
-                target="_blank"
-                >2. making your dough</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.youtube.com/watch?v=NNHAvJrAdR0"
-                target="_blank"
-                >3. working dough into a ball</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.youtube.com/watch?v=deKDdyEZL94"
-                target="_blank"
-                >4. getting dough ready for baking</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.youtube.com/watch?v=5gp0XWN6J_8"
-                target="_blank"
-                >5. tightening the dough</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.youtube.com/watch?v=XFYIW4jQyIk"
-                target="_blank"
-                >6. turning dough into pot and ready for oven</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.youtube.com/watch?v=4OMyqpHdHEQ"
-                target="_blank"
-                >7. it is done</a
-              >
-            </li>
-          </ul>
-        </div>
-
-        <div id="cooking-tab" class="tab-pane fade">
-          <h3>Cooking</h3>
-          <ul>
-            <li>
-              <a href="https://www.youtube.com/watch?v=I0t8ZAhb8lQ"
-                >VIDEO - Faster No Knead Bread by Jenny Jones</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.jennycancook.com/recipes/faster-no-knead-bread/"
-                >ARTICLE - Faster No Knead Bread by Jenny Jones</a
-              >
-            </li>
-            <li>
-              <a href="https://www.simplyrecipes.com/recipes/banana_bread/"
-                >Banana Bread</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.youtube.com/watch?v=ff3IjiYs7K4"
-                target="_blank"
-                >How to Make Authentic Falafel</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://amiraspantry.com/foul-ful-medames/"
-                target="_blank"
-                >Guide to Ful Medammes | Amira's Pantry</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://inmyway.info/?p=485&fbclid=IwAR0tGLVJdMWDoYAfPA26idmBNVnhPpUMsUNBgeHnzJw6FHazX_rE6aKPOGc"
-                target="_blank"
-                >Blueberry pound cake</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://gimmedelicious.com/basbousa-coconut-yogurt-semolina-cake/"
-                target="_blank"
-                >Basbousa (Coconut Yogurt Semolina Cake)</a
-              >
-            </li>
-          </ul>
-        </div>
-
-        <div id="blackberry-tab" class="tab-pane fade">
-          <h3>Blackberry Bakes</h3>
-          <ul>
-            <li>
-              <a
-                href="https://www.thepioneerwoman.com/food-cooking/recipes/a10191/blackberry-cobbler-recipe/"
-                >Blackberry Cobbler</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.allrecipes.com/recipe/279423/best-homemade-blackberry-pie/"
-                >Best Homemade Blackberry Pie - no top</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.allrecipes.com/recipe/12284/blackberry-pie-i/"
-                >Blackberry Pie with store-bought pie crust</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.foodandwine.com/recipes/marilyn-batalis-blackberry-pie"
-                >Make Entire Blackberry Pie (including pie crust)</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.delish.com/cooking/recipe-ideas/a39753334/blackberry-pie-recipe/"
-                >Another Entire Blackberry Pie (including pie crust)</a
-              >
-            </li>
-          </ul>
-        </div>
-
-        <div id="mvp-tab" class="tab-pane fade">
-          <h3>MVP</h3>
-          <ul>
-            <li>
-              <a href="https://docs.microsoft.com/en-us/">docs.microsoft.com</a>
-            </li>
-            <li>
-              <a href="https://mvp.microsoft.com/en-us/" target="_blank"
-                >Most Valuable Professional</a
-              >
-            </li>
-            <li>
-              <a href="https://twitter.com/mvpaward" target="_blank"
-                >MVP Award Program (@MVPAward) / Twitter</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_Bd56YTwD1Gsu3sHRReLNdUMDBGUUs3NTQ4SExCWVdSOE4xU0QwWTlOMy4u"
-                target="_blank"
-                >CanAm Teams</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_Bd56YTwD1Gsu3sHRReLNdURUdMMk5BNzVCMEJEODkyOVhJWUxRUlRPWS4u"
-                target="_blank"
-                >CanAm Working Lunch Lightning Talk Submission</a
-              >
-            </li>
-            <li>
-              <a href="https://docs.microsoft.com/en-us/learn/" target="_blank"
-                >Microsoft Learn | Microsoft Docs</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.yammer.com/microsoftcommunityinfluencers/"
-                target="_blank"
-                >Yammer : Microsoft MVP Community</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRz5_gOMgE5pOhV_HV1x30KlUQVNCMzhUOFZDWTRaUEFUVDkyUTgxWlgzOS4u"
-                target="_blank"
-                >Content Submission for MVP & RD Knowledge Library</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.meetup.com/pro/microsoft-reactor"
-                target="_blank"
-                >Microsoft Reactor | Meetup Pro - Meetup</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://techcommunity.microsoft.com/t5/humans-of-it/ct-p/HumansofIT"
-                target="_blank"
-                >Humans of IT - Microsoft Tech Community</a
-              >
-            </li>
-            <li>
-              <a href="https://computerhistory.org/" target="_blank"
-                >Computer History Museum</a
-              >
-            </li>
-          </ul>
-        </div>
-        <div id="saints-tab" class="tab-pane fade">
-          <h3>Saints</h3>
-          <ul>
-            <li>
-              <a href="https://www.youtube.com/watch?v=UVIrNU5yvAo"
-                >A Wellspring of Humility - Saint Nektarios of Aegina</a
-              >
-            </li>
-          </ul>
-        </div>
-
-        <div id="church-tab" class="tab-pane fade">
-          <h3>Church</h3>
-          <ul>
-            <li>
-              <a href="https://www.youtube.com/watch?v=FDxL5_UHiyk"
-                >St. George Coptic Orthodox Church Short Documentary (2020)</a
-              >
-            </li>
-            <li>
-              <a href="https://www.youtube.com/watch?v=FBJk1p5ZbEY"
-                >St. George Coptic Orthodox Church in Vancouver destroyed by
-                fire on July 19, 2021 (2021)</a
-              >
-            </li>
-            <li>
-              <a href="https://www.youtube.com/watch?v=ouEfqnuNkBg"
-                >Destruction of St. George Coptic Orthodox Church in Surrey, BC,
-                on July 19, 2021 (2022)</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://square.saic.edu/s/article/Send-email-from-a-Google-Group-address"
-                >How Do I Send Email From A Google Group Address?</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
+      </nav>
     </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

@@ -1,7 +1,7 @@
 const ImagesPage = () => {
   return (
     <section>
-        <h3>Images</h3>
+        <h3 className="text-center">Images</h3>
         <ul>
           <li>
             <a

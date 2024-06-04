@@ -1,7 +1,7 @@
 const MusicPage = () => {
   return (
     <section>
-        <h3>Music</h3>
+        <h3 className="text-center">Music</h3>
         <ul>
           <li>
             <a

@@ -7,15 +7,13 @@ const ImagesPage = () => {
             <a
               className="text-decoration-none link-secondary"
               href="https://heictojpg.com/"
-              >Online heic to jpg converter</a
-            >
+              >Online heic to jpg converter</a>
           </li>
           <li>
             <a
               className="text-decoration-none link-secondary"
               href="https://www.bing.com/images/create"
-              >Bing OpenAI Image Creator</a
-            >
+              >Bing OpenAI Image Creator</a>
           </li>
         </ul>
 

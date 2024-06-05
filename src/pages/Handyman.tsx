@@ -7,8 +7,7 @@ const HandymanPage = () => {
             <a
               className="text-decoration-none link-secondary"
               href="https://youtu.be/1mn4CShD3ps?si=nDTb2hdAvyrloYiX"
-              >How to clean a bathroom fan?</a
-            >
+              >How to clean a bathroom fan?</a>
           </li>
         </ul>
 

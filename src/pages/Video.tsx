@@ -28,19 +28,13 @@ const VideoPage = () => {
             <a
               className="text-decoration-none link-secondary"
               href="https://yt1s.ltd/en165xjh/"
-              >YouTube to MP4 converter (https://yt1s.ltd)</a
-            >
+              >YouTube to MP4 converter (https://yt1s.ltd)</a>
           </li>
           <li>
             <a
               className="text-decoration-none link-secondary"
               href="https://y2mate.guru/en3/"
-              >Another online YouTube to mp4 converter</a
-            >
-          </li>
-          <li>
-            <a className="text-decoration-none link-secondary"
-              href="https://ignitetv.shaw.ca/">Shaw Live TV</a>
+              >Another online YouTube to mp4 converter</a>
           </li>
         </ul>
     </section>

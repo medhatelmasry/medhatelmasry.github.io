@@ -40,13 +40,19 @@ const VideoPage = () => {
             <a
               className="text-decoration-none link-secondary"
               href="https://www.youtube.com/watch?v=WcIcVapfqXw"
-              >Rema, Selena Gomez - Calm Down (Official Music Video)</a>
+              >Rema &amp; Selena Gomez - Calm Down (Official Music Video)</a>
           </li>
           <li>
             <a
               className="text-decoration-none link-secondary"
               href="https://www.youtube.com/watch?v=LPgN4EfzUrU"
-              >Rema & Selena Gomez - Calm Down (Official Lyric Video)</a>
+              >Rema &amp; Selena Gomez - Calm Down (Official Lyric Video)</a>
+          </li>
+          <li>
+            <a
+              className="text-decoration-none link-secondary"
+              href="https://www.youtube.com/watch?v=pRpeEdMmmQ0"
+              >Shakira - Waka Waka (This Time for Africa) (The Official 2010 FIFA World Cup™ Song)</a>
           </li>
         </ul>
     </section>

@@ -15,7 +15,7 @@ IMPORTANT
 
 After push of source code, do the following steps:
 
-1) npm run deploy
+1) npm run deploy << not necessary anymore because .yml does this
 2) In GitHub: Settings >> Pages >> Custom Domain
     Enter: medhat.ca then click Save
     After about 2 minutes, it should work on medhat.ca

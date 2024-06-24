@@ -37,6 +37,10 @@ const EnglishPage = () => {
             <a className="text-decoration-none link-secondary"
               href="https://ignitetv.shaw.ca/">Shaw Live TV</a>
           </li>
+          <li>
+            <a className="text-decoration-none link-secondary"
+              href="https://copilot.microsoft.com/">copilot.microsoft.com</a>
+          </li>
         </ul>
       </section>
     );

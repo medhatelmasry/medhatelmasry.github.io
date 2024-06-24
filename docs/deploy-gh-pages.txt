@@ -13,7 +13,7 @@ https://github.com/ErickKS/vite-react-router
 IMPORTANT
 =========
 
-After push of sourc code, do the following steps:
+After push of source code, do the following steps:
 
 1) npm run deploy
 2) In GitHub: Settings >> Pages >> Custom Domain

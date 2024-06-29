@@ -20,6 +20,7 @@ const TravelPage = () => {
           <li><a className="text-decoration-none link-secondary" href="https://skiplagged.com/">skiplagged.com</a></li>
           <li><a className="text-decoration-none link-secondary" href="https://www.skyscanner.ca/">SkyScanner</a></li>
           <li><a className="text-decoration-none link-secondary" href="https://abetterrouteplanner.com/">A better Route Planner EV</a></li>
+          <li><a className="text-decoration-none link-secondary" href="https://peacearchdutyfree.com/border-wait-times">BC / WA Border Wait Times</a></li>
         </ul>
     </section>
   );

@@ -97,6 +97,13 @@ const ArchivesPage = () => {
           <li>
             <a
               className="text-decoration-none link-secondary"
+              href="https://youtu.be/MKfLvXtIuhs?si=81HrWiOSMCQymuX6"
+              >Enrico Macias - Chanter</a
+            >
+          </li>
+          <li>
+            <a
+              className="text-decoration-none link-secondary"
               href="https://www.diannasturhahnrealtor.ca/RecentSales.php/Details/899/2379-marshall-ave.-port-coquitlam-port-coquitlam-bc"
               >Marshall Ave, POCO</a
             >

@@ -13,6 +13,7 @@ import TVPage from "../pages/TV";
 import VideoPage from "../pages/Video";
 import ImagesPage from "../pages/Images";
 import MusicPage from "../pages/Music";
+import SoftwarePage from "../pages/Software";
 
 /**
  * The router configuration for the application.
@@ -76,6 +77,10 @@ export const router = createBrowserRouter([
       {
         path: "/images",
         element: <ImagesPage />,
+      },
+      {
+        path: "/software",
+        element: <SoftwarePage />,
       },
     ],
   },

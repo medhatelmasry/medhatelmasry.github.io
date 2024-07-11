@@ -67,6 +67,7 @@ const NavBar = () => {
               <li><a className="dropdown-item" href="/video">Video</a></li>
               <li><a className="dropdown-item" href="/music">Music</a></li>
               <li><a className="dropdown-item" href="/images">Images</a></li>
+              <li><a className="dropdown-item" href="/software">Software</a></li>
 
             </ul>
           </li>

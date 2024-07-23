@@ -8,10 +8,12 @@ const SoftwarePage = () => {
               href="https://icons.getbootstrap.com/">
                 Bootstrap Icons
             </a>
+          </li>
         </ul>
 
       </section>
     );
   };
+
   export default SoftwarePage;
   

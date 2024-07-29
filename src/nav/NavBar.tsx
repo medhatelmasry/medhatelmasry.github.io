@@ -36,13 +36,8 @@ const NavBar = () => {
               role="button"
               data-bs-toggle="dropdown"
               aria-expanded="false"
-            >
-              Other
-            </a>
-            <ul
-              className="dropdown-menu"
-              aria-labelledby="navbarDropdownMenuLink"
-            >
+            >Other</a>
+            <ul className="dropdown-menu"aria-labelledby="navbarDropdownMenuLink">
               <li>
                 <a className="dropdown-item" href="/archives">Archives</a>
               </li>
@@ -50,24 +45,17 @@ const NavBar = () => {
                 <a className="dropdown-item" href="/church">Church</a>
               </li>
               <li>
-                <a className="dropdown-item" href="/handyman"
-                  >Handyman</a
-                >
+                <a className="dropdown-item" href="/handyman">Handyman</a>
               </li>                  
               <li><a className="dropdown-item" href="/mvp">MVP</a></li>
-              <li>
-                <a className="dropdown-item" href="recruiters.html"
-                  >Recruiters</a
-                >
-              </li>
-              <li>
-                <a className="dropdown-item" href="/travel">Travel</a>
-              </li>
+              <li><a className="dropdown-item" href="recruiters.html">Recruiters</a></li>
+              <li><a className="dropdown-item" href="/travel">Travel</a></li>
               <li><a className="dropdown-item" href="/tv">TV</a></li>
               <li><a className="dropdown-item" href="/video">Video</a></li>
               <li><a className="dropdown-item" href="/music">Music</a></li>
               <li><a className="dropdown-item" href="/images">Images</a></li>
               <li><a className="dropdown-item" href="/software">Software</a></li>
+              <li><a className="dropdown-item" href="/school-districts">School Districts</a></li>
 
             </ul>
           </li>

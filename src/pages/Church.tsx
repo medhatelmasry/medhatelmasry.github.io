@@ -71,27 +71,6 @@ const ChurchPage = () => {
                 Surrey Schools Rentals
             </a>
           </li>
-          <li>
-            <a
-              className="text-decoration-none link-secondary"
-              href="https://www.surreyschools.ca/page/30/find-a-school">
-                Map view of schools in Surrey
-            </a>
-          </li>
-          <li>
-            <a
-              className="text-decoration-none link-secondary"
-              href="https://www.sd35.bc.ca/schools/school-map/">
-                Langley School Map
-            </a>
-          </li>
-          <li>
-            <a
-              className="text-decoration-none link-secondary"
-              href="https://www.sd42.ca/schools/">
-                Maple Ridge Schools
-            </a>
-          </li>
         </ul>
 
     </section>

@@ -14,6 +14,7 @@ import VideoPage from "../pages/Video";
 import ImagesPage from "../pages/Images";
 import MusicPage from "../pages/Music";
 import SoftwarePage from "../pages/Software";
+import SchoolDistricts from "../pages/SchoolDistricts";
 
 /**
  * The router configuration for the application.
@@ -81,6 +82,10 @@ export const router = createBrowserRouter([
       {
         path: "/software",
         element: <SoftwarePage />,
+      },
+      {
+        path: "/school-districts",
+        element: <SchoolDistricts />,
       },
     ],
   },

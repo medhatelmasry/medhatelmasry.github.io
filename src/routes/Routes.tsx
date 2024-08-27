@@ -15,6 +15,7 @@ import ImagesPage from "../pages/Images";
 import MusicPage from "../pages/Music";
 import SoftwarePage from "../pages/Software";
 import SchoolDistricts from "../pages/SchoolDistricts";
+import AiPage from "../pages/AI";
 
 /**
  * The router configuration for the application.
@@ -30,6 +31,10 @@ export const router = createBrowserRouter([
         subtitle={""}>
           Ethiopia, Egypt, Canada
         </HomePage>
+      },
+      {
+        path: "/ai",
+        element: <AiPage />,
       },
       {
         path: "/arabic",

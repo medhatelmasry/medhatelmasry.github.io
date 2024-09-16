@@ -30,6 +30,12 @@ const VideoPage = () => {
               href="https://yt1s.ltd/en165xjh/"
               >YouTube to MP4 converter (https://yt1s.ltd)</a>
           </li>
+          <li>
+            <a
+              className="text-decoration-none link-secondary"
+              href="https://github.com/MrS0m30n3/youtube-dl-gui"
+              >Download desktop app that downloads video</a>
+          </li>
         </ul>
     </section>
   );

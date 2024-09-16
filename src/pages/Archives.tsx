@@ -18,18 +18,6 @@ const ArchivesPage = () => {
           <li>
             <a
               className="text-decoration-none link-secondary"
-              href="https://www.youtube.com/watch?feature=player_embedded%26v=XVwN3TtLaJA#!4"
-              >Bassem Youssef - Episode 22</a>
-          </li>
-          <li>
-            <a
-              className="text-decoration-none link-secondary"
-              href="http://www.godvine.com/5-Year-Old-Has-A-Big-Personality-And-A-HUGE-Talent-WOW!-7539.html"
-              >5-Year-Old Has A Big Personality And A HUGE Talent--WOW!</a>
-          </li>
-          <li>
-            <a
-              className="text-decoration-none link-secondary"
               href="https://www.youtube.com/watch?v=bDki7Vj0oIA"
               >Celtic Woman A Christmas Celebration</a>
           </li>
@@ -74,12 +62,6 @@ const ArchivesPage = () => {
               className="text-decoration-none link-secondary"
               href="https://vancouversunandprovince.remembering.ca/obituary/james-parry-1078305808"
               >James Leonard Parry Obituary</a>
-          </li>
-          <li>
-            <a
-              className="text-decoration-none link-secondary"
-              href="https://youtu.be/HTq7vE_5un4"
-              >Boney M - Rivers of Babylon - 1978</a>
           </li>
           <li>
             <a

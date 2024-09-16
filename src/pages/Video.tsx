@@ -33,24 +33,6 @@ const VideoPage = () => {
           <li>
             <a
               className="text-decoration-none link-secondary"
-              href="https://y2mate.guru/en3/"
-              >Another online YouTube to mp4 converter</a>
-          </li>
-          <li>
-            <a
-              className="text-decoration-none link-secondary"
-              href="https://www.youtube.com/watch?v=WcIcVapfqXw"
-              >Rema &amp; Selena Gomez - Calm Down (Official Music Video)</a>
-          </li>
-          <li>
-            <a
-              className="text-decoration-none link-secondary"
-              href="https://www.youtube.com/watch?v=LPgN4EfzUrU"
-              >Rema &amp; Selena Gomez - Calm Down (Official Lyric Video)</a>
-          </li>
-          <li>
-            <a
-              className="text-decoration-none link-secondary"
               href="https://www.youtube.com/watch?v=pRpeEdMmmQ0"
               >Shakira - Waka Waka (This Time for Africa) (The Official 2010 FIFA World Cup™ Song)</a>
           </li>

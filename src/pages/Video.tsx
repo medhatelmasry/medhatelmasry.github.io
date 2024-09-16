@@ -30,12 +30,6 @@ const VideoPage = () => {
               href="https://yt1s.ltd/en165xjh/"
               >YouTube to MP4 converter (https://yt1s.ltd)</a>
           </li>
-          <li>
-            <a
-              className="text-decoration-none link-secondary"
-              href="https://www.youtube.com/watch?v=pRpeEdMmmQ0"
-              >Shakira - Waka Waka (This Time for Africa) (The Official 2010 FIFA World Cup™ Song)</a>
-          </li>
         </ul>
     </section>
   );

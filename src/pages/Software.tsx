@@ -15,6 +15,18 @@ const SoftwarePage = () => {
                 List of emojis
             </a>
           </li>
+          <li>
+            <a className="text-decoration-none link-secondary" 
+              href="https://github.com/marketplace/models">
+                AI Models on GitHub Marketplace
+            </a>
+          </li>
+          <li>
+            <a className="text-decoration-none link-secondary" 
+              href="https://gist.github.com/medhatelmasry">
+                My gists
+            </a>
+          </li>
         </ul>
 
       </section>

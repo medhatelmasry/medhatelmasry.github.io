@@ -1,3 +1,5 @@
+import './Softwate.tsx.css';
+
 const SoftwarePage = () => {
     return (
       <section>       
@@ -20,6 +22,9 @@ const SoftwarePage = () => {
               href="https://github.com/marketplace/models">
                 AI Models on GitHub Marketplace
             </a>
+          </li>
+          <li className="no-bullet">
+            <hr />
           </li>
           <li>
             <a className="text-decoration-none link-secondary" 

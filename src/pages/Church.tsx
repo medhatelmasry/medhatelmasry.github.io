@@ -64,13 +64,6 @@ const ChurchPage = () => {
                 Fr. Abdel Messih el Habashi, The Ethiopian Monk
             </a>
           </li>
-          <li>
-            <a
-              className="text-decoration-none link-secondary"
-              href="https://surreyschools.ebasefm.com/rentals">
-                Surrey Schools Rentals
-            </a>
-          </li>
         </ul>
 
     </section>

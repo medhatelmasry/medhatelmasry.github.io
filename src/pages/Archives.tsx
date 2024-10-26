@@ -1,3 +1,5 @@
+import './Archives.tsx.css';
+
 const ArchivesPage = () => {
   return (
     <section>
@@ -30,30 +32,6 @@ const ArchivesPage = () => {
           <li>
             <a
               className="text-decoration-none link-secondary"
-              href="https://www.youtube.com/watch?v=TEpaUjA8SJI&feature=youtu.be"
-              >St. Joseph School 1</a>
-          </li>
-          <li>
-            <a
-              className="text-decoration-none link-secondary"
-              href="https://www.youtube.com/watch?v=TEpaUjA8SJI&t=603s"
-              >St. Joseph School 2</a>
-          </li>
-          <li>
-            <a
-              className="text-decoration-none link-secondary"
-              href="https://www.youtube.com/watch?v=ApdjS8QJAdU"
-              >Nazareth School 1</a>
-          </li>
-          <li>
-            <a
-              className="text-decoration-none link-secondary"
-              href="https://www.youtube.com/watch?v=ZYVmg9mmumg"
-              >Nazareth School 2</a>
-          </li>
-          <li>
-            <a
-              className="text-decoration-none link-secondary"
               href="https://www.youtube.com/watch?v=08OLZ0ZzGso"
               >Bear Grylls with Barack Obama at Exit Glacier in Alaska</a>
           </li>
@@ -68,19 +46,6 @@ const ArchivesPage = () => {
               className="text-decoration-none link-secondary"
               href="https://youtu.be/MKfLvXtIuhs?si=81HrWiOSMCQymuX6"
               >Enrico Macias - Chanter</a>
-          </li>
-          <li>
-            <a
-              className="text-decoration-none link-secondary"
-              href="https://www.diannasturhahnrealtor.ca/RecentSales.php/Details/899/2379-marshall-ave.-port-coquitlam-port-coquitlam-bc"
-              >Marshall Ave, POCO</a>
-          </li>
-
-          <li>
-            <a
-              className="text-decoration-none link-secondary"
-              href="https://www.cotala.com/49029"
-              >Barnston, Pitt Meadows</a>
           </li>
           <li>
             <a
@@ -118,8 +83,49 @@ const ArchivesPage = () => {
               href="https://www.youtube.com/watch?v=pRpeEdMmmQ0"
               >Shakira - Waka Waka (This Time for Africa) (The Official 2010 FIFA World Cup™ Song)</a>
           </li>
+          <li className="no-bullet">
+            <hr />
+          </li>
+          <li>
+            <a
+              className="text-decoration-none link-secondary"
+              href="https://www.youtube.com/watch?v=TEpaUjA8SJI&feature=youtu.be"
+              >St. Joseph School 1</a>
+          </li>
+          <li>
+            <a
+              className="text-decoration-none link-secondary"
+              href="https://www.youtube.com/watch?v=TEpaUjA8SJI&t=603s"
+              >St. Joseph School 2</a>
+          </li>
+          <li>
+            <a
+              className="text-decoration-none link-secondary"
+              href="https://www.youtube.com/watch?v=ApdjS8QJAdU"
+              >Nazareth School 1</a>
+          </li>
+          <li>
+            <a
+              className="text-decoration-none link-secondary"
+              href="https://www.youtube.com/watch?v=ZYVmg9mmumg"
+              >Nazareth School 2</a>
+          </li>
+          <li className="no-bullet">
+            <hr />
+          </li>
+          <li>
+            <a
+              className="text-decoration-none link-secondary"
+              href="https://www.diannasturhahnrealtor.ca/RecentSales.php/Details/899/2379-marshall-ave.-port-coquitlam-port-coquitlam-bc"
+              >Marshall Ave, POCO</a>
+          </li>
+          <li>
+            <a
+              className="text-decoration-none link-secondary"
+              href="https://www.cotala.com/49029"
+              >Barnston, Pitt Meadows</a>
+          </li>
         </ul>
-
     </section>
   );
 };

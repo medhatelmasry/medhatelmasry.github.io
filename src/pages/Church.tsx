@@ -1,16 +1,11 @@
+import './Church.tsx.css';
+
 const ChurchPage = () => {
   return (
     <section>
               <h1 className="text-center">Church</h1>
         <ul>
-          <li>
-            <a
-              className="text-decoration-none link-secondary"
-              href="https://www.youtube.com/watch?v=UVIrNU5yvAo">
-                A Wellspring of Humility - Saint Nektarios of Aegina
-            </a>
-          </li>
-          <li>
+        <li>
             <a
               className="text-decoration-none link-secondary"
               href="https://www.youtube.com/watch?v=FDxL5_UHiyk">
@@ -31,6 +26,16 @@ const ChurchPage = () => {
               href="https://www.youtube.com/watch?v=ouEfqnuNkBg">
                 Destruction of St. George Coptic Orthodox Church in Surrey, BC,
               on July 19, 2021 (2022)
+            </a>
+          </li>
+          <li className="no-bullet">
+            <hr />
+          </li>
+          <li>
+            <a
+              className="text-decoration-none link-secondary"
+              href="https://www.youtube.com/watch?v=UVIrNU5yvAo">
+                A Wellspring of Humility - Saint Nektarios of Aegina
             </a>
           </li>
           <li>
@@ -63,6 +68,9 @@ const ChurchPage = () => {
               href="https://www.youtube.com/watch?v=g0SeZuuGpC0&list=PLC-4wHwNowg8pIELg467HXG74TgjmdELE&index=1">
                 Fr. Abdel Messih el Habashi, The Ethiopian Monk
             </a>
+          </li>
+          <li className="no-bullet">
+            <hr />
           </li>
         </ul>
 

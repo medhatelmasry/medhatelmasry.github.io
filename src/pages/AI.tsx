@@ -15,6 +15,10 @@ const AiPage = () => {
               href="https://microsoft.github.io/generative-ai-for-beginners/#/"
               >Generative AI for Beginners</a>
           </li>
+          <li>
+            <a className="text-decoration-none link-secondary"
+              href="https://copilot.microsoft.com/">copilot.microsoft.com</a>
+          </li>
         </ul>
     </section>
   );

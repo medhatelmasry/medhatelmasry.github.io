@@ -6,13 +6,6 @@ const SchoolDistricts = () => {
           <li>
             <a
               className="text-decoration-none link-secondary"
-              href="https://www.surreyschools.ca/page/30/find-a-school">
-                Map view of schools in Surrey
-            </a>
-          </li>
-          <li>
-            <a
-              className="text-decoration-none link-secondary"
               href="https://www.sd35.bc.ca/schools/school-map/">
                 Langley School Map
             </a>
@@ -39,7 +32,13 @@ const SchoolDistricts = () => {
                 Surrey Schools Rentals
             </a>
           </li>
-
+          <li>
+            <a
+              className="text-decoration-none link-secondary"
+              href="https://www.surreyschools.ca/page/30/find-a-school">
+                Map view of schools in Surrey
+            </a>
+          </li>
         </ul>
 
     </section>

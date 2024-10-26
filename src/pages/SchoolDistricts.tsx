@@ -24,7 +24,14 @@ const SchoolDistricts = () => {
                 Maple Ridge Schools
             </a>
           </li>
-          <li><hr /></li>
+          <li>
+            <hr />
+            <a
+              className="text-decoration-none link-secondary"
+              href="https://media.surreyschools.ca/media/Default/medialib/rental-rates.c7de6978951.pdf">
+                Surrey Schools Facility Rentals - Rental Rates (PDF)
+            </a>            
+          </li>
           <li>
             <a
               className="text-decoration-none link-secondary"

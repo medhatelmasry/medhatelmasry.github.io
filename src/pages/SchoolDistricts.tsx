@@ -1,3 +1,5 @@
+import './SchoolDistricts.tsx.css';
+
 const SchoolDistricts = () => {
   return (
     <section>
@@ -10,6 +12,9 @@ const SchoolDistricts = () => {
                 Langley School Map
             </a>
           </li>
+          <li className="no-bullet">
+            <hr />
+          </li>
           <li>
             <a
               className="text-decoration-none link-secondary"
@@ -17,8 +22,10 @@ const SchoolDistricts = () => {
                 Maple Ridge Schools
             </a>
           </li>
-          <li>
+          <li className="no-bullet">
             <hr />
+          </li>
+          <li>
             <a
               className="text-decoration-none link-secondary"
               href="https://media.surreyschools.ca/media/Default/medialib/rental-rates.c7de6978951.pdf">

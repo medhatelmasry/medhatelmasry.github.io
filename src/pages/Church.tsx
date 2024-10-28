@@ -72,6 +72,33 @@ const ChurchPage = () => {
           <li className="no-bullet">
             <hr />
           </li>
+          <li>
+            <a
+              className="text-decoration-none link-secondary"
+              href="https://our.stgeorge.ca/resources/EgyptVisa/EN_Cdn_citizen_egypt_origin_travel_CDN_Passport.jpg">
+                Visa from Egyptian Embassy for Egyptians travelling on a Canadian Passport (English)
+            </a>
+          <li>
+            <a
+              className="text-decoration-none link-secondary"
+              href="https://our.stgeorge.ca/resources/EgyptVisa/AR_Cdn_citizen_egypt_origin_travel_CDN_Passport.jpg">
+                Visa from Egyptian Embassy for Egyptians travelling on a Canadian Passport (Arabic)
+            </a>
+          </li>
+          <li>
+            <a
+              className="text-decoration-none link-secondary"
+              href="https://our.stgeorge.ca/resources/EgyptVisa/EN_Cdn_citizen_egypt_origin_travel_EGY_Docs.jpg">
+                Visa from Egyptian Embassy for Egyptians travelling with Egyptian Docs (English)
+            </a>
+          </li>
+          <li>
+            <a
+              className="text-decoration-none link-secondary"
+              href="https://our.stgeorge.ca/resources/EgyptVisa/AR_Cdn_citizen_egypt_origin_travel_EGY_Docs.jpg">
+                Visa from Egyptian Embassy for Egyptians travelling with Egyptian Docs (Arabic)
+            </a>
+          </li>
         </ul>
 
     </section>

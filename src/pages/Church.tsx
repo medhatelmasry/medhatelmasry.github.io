@@ -71,33 +71,35 @@ const ChurchPage = () => {
           </li>
           <li className="no-bullet">
             <hr />
+            <h1 className="text-center">Visa to Egypt</h1>
+            <hr />
           </li>
           <li>
             <a
               className="text-decoration-none link-secondary"
               href="https://our.stgeorge.ca/resources/EgyptVisa/EN_Cdn_citizen_egypt_origin_travel_CDN_Passport.jpg">
-                Visa from Egyptian Embassy when travelling on a Canadian Passport (English)
+                Visa from Egypt Embassy when travelling on a Canadian Passport (English)
             </a>
           </li>
           <li>
             <a
               className="text-decoration-none link-secondary"
               href="https://our.stgeorge.ca/resources/EgyptVisa/AR_Cdn_citizen_egypt_origin_travel_CDN_Passport.jpg">
-                Visa from Egyptian Embassy when travelling on a Canadian Passport (Arabic)
+                Visa from Egypt Embassy when travelling on a Canadian Passport (Arabic)
             </a>
           </li>
           <li>
             <a
               className="text-decoration-none link-secondary"
               href="https://our.stgeorge.ca/resources/EgyptVisa/EN_Cdn_citizen_egypt_origin_travel_EGY_Docs.jpg">
-                Visa from Egyptian Embassy when travelling with Egyptian Docs (English)
+                Visa from Egypt Embassy when travelling with Egyptian Docs (English)
             </a>
           </li>
           <li>
             <a
               className="text-decoration-none link-secondary"
               href="https://our.stgeorge.ca/resources/EgyptVisa/AR_Cdn_citizen_egypt_origin_travel_EGY_Docs.jpg">
-                Visa from Egyptian Embassy when travelling with Egyptian Docs (Arabic)
+                Visa from Egypt Embassy when travelling with Egyptian Docs (Arabic)
             </a>
           </li>
         </ul>

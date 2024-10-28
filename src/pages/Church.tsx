@@ -78,6 +78,7 @@ const ChurchPage = () => {
               href="https://our.stgeorge.ca/resources/EgyptVisa/EN_Cdn_citizen_egypt_origin_travel_CDN_Passport.jpg">
                 Visa from Egyptian Embassy when travelling on a Canadian Passport (English)
             </a>
+          </li>
           <li>
             <a
               className="text-decoration-none link-secondary"

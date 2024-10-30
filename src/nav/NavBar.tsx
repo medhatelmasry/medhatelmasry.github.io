@@ -1,6 +1,6 @@
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark p-3">
+  <nav className="navbar navbar-expand-lg navbar-dark bg-dark p-3">
     <div className="container-fluid">
       <a className="navbar-brand" href="/">&#x2652; MEDHAT مدحت</a>
       <button
@@ -10,17 +10,14 @@ const NavBar = () => {
         data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown"
         aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
+        aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
 
       <div className="collapse navbar-collapse" id="navbarNavDropdown">
         <ul className="navbar-nav ms-auto">
           <li className="nav-item">
-            <a className="nav-link mx-2" aria-current="page" href="/arabic"
-              >Arabic</a
-            >
+            <a className="nav-link mx-2" aria-current="page" href="/arabic">Arabic</a>
           </li>
           <li className="nav-item">
             <a className="nav-link mx-2" href="/english">English</a>
@@ -35,31 +32,22 @@ const NavBar = () => {
               id="navbarDropdownMenuLink"
               role="button"
               data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >Other</a>
+              aria-expanded="false">Other</a>
             <ul className="dropdown-menu"aria-labelledby="navbarDropdownMenuLink">
-              <li>
-                <a className="dropdown-item" href="/ai">AI</a>
-              </li>
-              <li>
-                <a className="dropdown-item" href="/archives">Archives</a>
-              </li>
-              <li>
-                <a className="dropdown-item" href="/church">Church</a>
-              </li>
-              <li>
-                <a className="dropdown-item" href="/handyman">Handyman</a>
-              </li>                  
+              <li><a className="dropdown-item" href="/ai">AI</a></li>
+              <li><a className="dropdown-item" href="/archives">Archives</a></li>
+              <li><a className="dropdown-item" href="/church">Church</a></li>
+              <li><a className="dropdown-item" href="/embassy">Embassy</a></li>
+              <li><a className="dropdown-item" href="/handyman">Handyman</a></li> 
+              <li><a className="dropdown-item" href="/images">Images</a></li>                 
+              <li><a className="dropdown-item" href="/music">Music</a></li>
               <li><a className="dropdown-item" href="/mvp">MVP</a></li>
               <li><a className="dropdown-item" href="recruiters.html">Recruiters</a></li>
+              <li><a className="dropdown-item" href="/school-districts">School Districts</a></li>
+              <li><a className="dropdown-item" href="/software">Software</a></li>
               <li><a className="dropdown-item" href="/travel">Travel</a></li>
               <li><a className="dropdown-item" href="/tv">TV</a></li>
               <li><a className="dropdown-item" href="/video">Video</a></li>
-              <li><a className="dropdown-item" href="/music">Music</a></li>
-              <li><a className="dropdown-item" href="/images">Images</a></li>
-              <li><a className="dropdown-item" href="/software">Software</a></li>
-              <li><a className="dropdown-item" href="/school-districts">School Districts</a></li>
-
             </ul>
           </li>
         </ul>

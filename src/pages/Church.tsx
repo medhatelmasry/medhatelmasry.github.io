@@ -69,6 +69,13 @@ const ChurchPage = () => {
                 Fr. Abdel Messih el Habashi, The Ethiopian Monk
             </a>
           </li>
+          <li>
+            <a
+              className="text-decoration-none link-secondary"
+              href="https://en-ca.wordpress.org/themes/">
+                Free Wordpress Themes
+            </a>
+          </li>
           <li className="no-bullet">
             <hr />
           </li>

@@ -27,6 +27,12 @@ const SoftwarePage = () => {
                 My gists
             </a>
           </li>
+          <li>
+            <a className="text-decoration-none link-secondary" 
+              href="https://www.rgbtohex.net/">
+                RGB to HEX Color Converter
+            </a>
+          </li>
         </ul>
 
       </section>

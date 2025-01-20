@@ -23,6 +23,8 @@ const ArabicPage = () => {
           </li>
           <li><a className="text-decoration-none link-secondary" href="http://www.hd44.com/">HD44</a></li>
           <li><a className="text-decoration-none link-secondary" href="http://www.youm7.com/">Alyoum Al saab3</a></li>
+          <li><a className="text-decoration-none link-secondary" href="https://wwitv.com/television/63.htm">wwiTV.com</a></li>
+          <li><a className="text-decoration-none link-secondary" href="http://www.elahmad.com/tv/mobile_tv_live/?id=egypt">elahmad.com</a></li>
         </ul>
         <h3>Youtube channels</h3>
         <ul>

@@ -46,6 +46,11 @@ const ArchivesPage = () => {
               className="text-decoration-none link-secondary"
               href="https://youtu.be/MKfLvXtIuhs?si=81HrWiOSMCQymuX6"
               >Enrico Macias - Chanter</a>
+          <li>
+            <a
+              className="text-decoration-none link-secondary"
+              href="https://www.youtube.com/watch?v=eH3giaIzONA"
+              >Whitney Houston - I Wanna Dance With Somebody (Official 4K Video)</a>
           </li>
           <li>
             <a

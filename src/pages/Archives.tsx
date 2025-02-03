@@ -46,6 +46,7 @@ const ArchivesPage = () => {
               className="text-decoration-none link-secondary"
               href="https://youtu.be/MKfLvXtIuhs?si=81HrWiOSMCQymuX6"
               >Enrico Macias - Chanter</a>
+          </li>
           <li>
             <a
               className="text-decoration-none link-secondary"

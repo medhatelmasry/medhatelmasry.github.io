@@ -28,6 +28,21 @@ const ChurchPage = () => {
               on July 19, 2021 (2022)
             </a>
           </li>
+          <li>
+            <a
+              className="text-decoration-none link-secondary"
+              href="https://our.stgeorge.ca/resources/fire/media_coverage.html">
+                Media coverage about destruction of our church
+            </a>
+          </li>
+          <li>
+            <a
+              className="text-decoration-none link-secondary"
+              href="https://www.youtube.com/watch?v=ouEfqnuNkBg">
+                Destruction of St. George Coptic Orthodox Church in Surrey, BC,
+              on July 19, 2021 (2022)
+            </a>
+          </li>
           <li className="no-bullet">
             <hr />
           </li>

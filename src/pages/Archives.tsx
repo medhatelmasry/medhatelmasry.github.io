@@ -38,12 +38,6 @@ const ArchivesPage = () => {
           <li>
             <a
               className="text-decoration-none link-secondary"
-              href="https://vancouversunandprovince.remembering.ca/obituary/james-parry-1078305808"
-              >James Leonard Parry Obituary</a>
-          </li>
-          <li>
-            <a
-              className="text-decoration-none link-secondary"
               href="https://youtu.be/MKfLvXtIuhs?si=81HrWiOSMCQymuX6"
               >Enrico Macias - Chanter</a>
           </li>
@@ -89,9 +83,28 @@ const ArchivesPage = () => {
               href="https://www.youtube.com/watch?v=pRpeEdMmmQ0"
               >Shakira - Waka Waka (This Time for Africa) (The Official 2010 FIFA World Cup™ Song)</a>
           </li>
-          <li className="no-bullet">
-            <hr />
+        </ul>
+
+        <hr />
+
+        <h1 className="text-center">Obituaries</h1>
+        <ul>
+          <li>
+            <a
+              className="text-decoration-none link-secondary"
+              href="https://vancouversunandprovince.remembering.ca/obituary/james-parry-1078305808"
+              >James Leonard Parry Obituary</a>
           </li>
+          <li>
+            <a
+              className="text-decoration-none link-secondary"
+              href="https://www.dignitymemorial.com/obituaries/port-coquitlam-bc/william-leipert-11572274"
+              >William "Rick" Frederick Leipert Obituary</a>
+          </li>
+        </ul>
+
+        <h1 className="text-center">Archives</h1>
+        <ul>
           <li>
             <a
               className="text-decoration-none link-secondary"

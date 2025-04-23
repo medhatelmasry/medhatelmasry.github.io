@@ -129,9 +129,6 @@ const ArchivesPage = () => {
               href="https://www.youtube.com/watch?v=ZYVmg9mmumg"
               >Nazareth School 2</a>
           </li>
-          <li className="no-bullet">
-            <hr />
-          </li>
         </ul>
         <hr />
         <h1 className="text-center">Other</h1>

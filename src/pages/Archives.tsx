@@ -3,7 +3,7 @@ import './Archives.tsx.css';
 const ArchivesPage = () => {
   return (
     <section>
-        <h1 className="text-center">Archives</h1>
+        <h1 className="text-center">Songs</h1>
         <ul>
           <li>
             <a
@@ -102,8 +102,8 @@ const ArchivesPage = () => {
               >William "Rick" Frederick Leipert Obituary</a>
           </li>
         </ul>
-
-        <h1 className="text-center">Archives</h1>
+        <hr />
+        <h1 className="text-center">Schools</h1>
         <ul>
           <li>
             <a
@@ -132,6 +132,10 @@ const ArchivesPage = () => {
           <li className="no-bullet">
             <hr />
           </li>
+        </ul>
+        <hr />
+        <h1 className="text-center">Other</h1>
+        <ul>
           <li>
             <a
               className="text-decoration-none link-secondary"

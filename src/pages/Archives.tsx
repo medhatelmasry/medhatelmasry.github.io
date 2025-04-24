@@ -20,20 +20,8 @@ const ArchivesPage = () => {
           <li>
             <a
               className="text-decoration-none link-secondary"
-              href="https://www.youtube.com/watch?v=bDki7Vj0oIA"
-              >Celtic Woman A Christmas Celebration</a>
-          </li>
-          <li>
-            <a
-              className="text-decoration-none link-secondary"
               href="https://www.youtube.com/watch?list=RDEMEUNf1pH3JYkmwDUyOgVDEQ&params=EAMYATgBSAFYAWILWWZ3bGowZ2JhX2toAQ%253D%253D&v=HsCp5LG_zNE&mode=NORMAL&app=desktop"
               >Celtic Woman Mix</a>
-          </li>
-          <li>
-            <a
-              className="text-decoration-none link-secondary"
-              href="https://www.youtube.com/watch?v=08OLZ0ZzGso"
-              >Bear Grylls with Barack Obama at Exit Glacier in Alaska</a>
           </li>
           <li>
             <a
@@ -58,12 +46,6 @@ const ArchivesPage = () => {
               className="text-decoration-none link-secondary"
               href="https://www.youtube.com/watch?v=QNv8iODCAwE"
               >Miley Cyrus - Flowers (Backyard Sessions)</a>
-          </li>
-          <li>
-            <a
-              className="text-decoration-none link-secondary"
-              href="https://www.foreignaffairs.com/ethiopia/ethiopia-back-brink"
-              >Ethiopia Back on the Brink 8apr24</a>
           </li>
           <li>
             <a
@@ -129,10 +111,16 @@ const ArchivesPage = () => {
               href="https://www.youtube.com/watch?v=ZYVmg9mmumg"
               >Nazareth School 2</a>
           </li>
-        </ul>
-        <hr />
-        <h1 className="text-center">Other</h1>
-        <ul>
+      </ul>
+      <hr />
+      <h1 className="text-center">Other</h1>
+      <ul>
+        <li>
+            <a
+              className="text-decoration-none link-secondary"
+              href="https://www.foreignaffairs.com/ethiopia/ethiopia-back-brink"
+              >ARTICLE: Ethiopia Back on the Brink 8apr24</a>
+          </li>
           <li>
             <a
               className="text-decoration-none link-secondary"

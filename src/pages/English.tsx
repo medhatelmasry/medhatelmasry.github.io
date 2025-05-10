@@ -41,6 +41,10 @@ const EnglishPage = () => {
             <a className="text-decoration-none link-secondary"
               href="https://iview.abc.net.au/category/watch-live">Australia Broadcasting Corp.</a>
           </li>
+          <li>
+            <a className="text-decoration-none link-secondary"
+              href="https://cgtn.com/tv">CGTN (China Online News)</a>
+          </li>
         </ul>
       </section>
     );

@@ -39,6 +39,12 @@ const SoftwarePage = () => {
                 The Best Mac Presentation Tools For Live Demos
             </a>
           </li>
+          <li>
+            <a className="text-decoration-none link-secondary" 
+              href="https://www.elevenforum.com/t/how-to-bypass-windows-11-system-requirements-in-one-command.33390/">
+                How to Bypass Windows 11 System Requirements in One Command
+            </a>
+          </li>
         </ul>
 
       </section>

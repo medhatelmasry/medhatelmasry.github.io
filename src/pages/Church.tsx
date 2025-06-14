@@ -38,9 +38,8 @@ const ChurchPage = () => {
           <li>
             <a
               className="text-decoration-none link-secondary"
-              href="https://www.youtube.com/watch?v=ouEfqnuNkBg">
-                Destruction of St. George Coptic Orthodox Church in Surrey, BC,
-              on July 19, 2021 (2022)
+              href="https://youtu.be/1CMWy3BFtt8">
+                Demolition of structures at new land (May 2025)
             </a>
           </li>
           <li className="no-bullet">

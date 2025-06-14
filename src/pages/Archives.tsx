@@ -133,6 +133,12 @@ const ArchivesPage = () => {
               href="https://www.cotala.com/49029"
               >Barnston, Pitt Meadows</a>
           </li>
+          <li>
+            <a
+              className="text-decoration-none link-secondary"
+              href="https://youtu.be/CYC49_aeop0?si=RJGasHAmz0hoA1Sg"
+              >The Steve Ballmer Interview</a>
+          </li>
         </ul>
     </section>
   );

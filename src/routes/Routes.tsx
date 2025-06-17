@@ -17,6 +17,7 @@ import SoftwarePage from "../pages/Software";
 import SchoolDistricts from "../pages/SchoolDistricts";
 import AiPage from "../pages/AI";
 import EmbassyPage from '../pages/Embassy';
+import NetBCPage from '../pages/NetBC';
 
 /**
  * The router configuration for the application.
@@ -96,6 +97,10 @@ export const router = createBrowserRouter([
       {
         path: "/embassy",
         element: <EmbassyPage />,
+      },
+      {
+        path: "/netbc",
+        element: <NetBCPage />,
       },
     ],
   },

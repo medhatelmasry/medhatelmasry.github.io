@@ -42,6 +42,7 @@ const NavBar = () => {
               <li><a className="dropdown-item" href="/images">Images</a></li>                 
               <li><a className="dropdown-item" href="/music">Music</a></li>
               <li><a className="dropdown-item" href="/mvp">MVP</a></li>
+              <li><a className="dropdown-item" href="/netbc">.NET BC Meetup Group</a></li>
               <li><a className="dropdown-item" href="recruiters.html">Recruiters</a></li>
               <li><a className="dropdown-item" href="/school-districts">School Districts</a></li>
               <li><a className="dropdown-item" href="/software">Software</a></li>

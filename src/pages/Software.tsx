@@ -45,6 +45,12 @@ const SoftwarePage = () => {
                 How to Bypass Windows 11 System Requirements in One Command
             </a>
           </li>
+          <li>
+            <a className="text-decoration-none link-secondary" 
+              href="https://www.apple.com/ca/today/coquitlamcentre/?cid=aos-ca-kwgo-brand-today--&aosid=p240&ken_pid=go%7Ecmp-21288216218%7Eadg-165151687129%7Ead-703276221543_kwd-505345994112%7Edev-c%7Eext-%7Eprd-%7Emca-%7Ent-search&token=8c1a76ab-cfe5-4380-b551-e755a3b48bc8">
+                Today at Apple - Coquitlam Centre
+            </a>
+          </li>
         </ul>
 
       </section>

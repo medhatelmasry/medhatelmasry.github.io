@@ -35,6 +35,13 @@ const SchoolDistricts = () => {
         <li>
           <a
             className="text-decoration-none link-secondary"
+            href="https://www.surreyschools.ca/facility-rentals">
+            Surrey Schools District - Facilities Department
+          </a>
+        </li>
+        <li>
+          <a
+            className="text-decoration-none link-secondary"
             href="https://surreyschools.ebasefm.com/rentals">
             Surrey Schools Rentals
           </a>

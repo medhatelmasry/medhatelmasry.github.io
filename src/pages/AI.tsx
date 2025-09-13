@@ -19,6 +19,11 @@ const AiPage = () => {
             <a className="text-decoration-none link-secondary"
               href="https://copilot.microsoft.com/">copilot.microsoft.com</a>
           </li>
+
+          <li>
+            <a className="text-decoration-none link-secondary"
+              href="https://www.youtube.com/watch?v=79-bApI3GIU">Ex-OpenAI Scientist WARNS: "You Have No Idea What is Coming"</a>
+          </li>
         </ul>
     </section>
   );

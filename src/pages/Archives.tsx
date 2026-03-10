@@ -139,7 +139,23 @@ const ArchivesPage = () => {
               href="https://youtu.be/CYC49_aeop0?si=RJGasHAmz0hoA1Sg"
               >The Steve Ballmer Interview</a>
           </li>
+          <li>
+            <a
+              className="text-decoration-none link-secondary"
+            href="https://www.msn.com/en-ca/news/politics/a-murderous-thug-has-dirt-on-trump-nothing-else-explains-this-madness-opinion/ar-AA1XV7ft?ocid=msedgntp&pc=U531&cvid=69b0683581ec41a88436c4ac8dab64d6&ei=10"
+          >A murderous thug has dirt on Trump. Nothing else explains this madness | Opinion</a>
+          </li>
         </ul>
+      <hr />
+      <h1 className="text-center">Religious</h1>
+      <ul>
+        <li>
+          <a
+            className="text-decoration-none link-secondary"
+            href="https://youtu.be/OPavcMhuDgA?si=p0tFldIXCPSv11b3"
+          >YouTube: Abouna Daoud Lamei talking about Jews</a>
+        </li>
+      </ul>
     </section>
   );
 };

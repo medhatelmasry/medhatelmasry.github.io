@@ -26,11 +26,11 @@ const AiPage = () => {
         </li>
         <li>
           <a className="text-decoration-none link-secondary"
-            href="https://github.com/github/awesome-copilot">🤖 Awesome GitHub Copilot"</a>
+            href="https://github.com/github/awesome-copilot">🤖 Awesome GitHub Copilot</a>
         </li>
         <li>
           <a className="text-decoration-none link-secondary"
-            href="https://www.codeitwithai.com/">Code it with AI"</a>
+            href="https://www.codeitwithai.com/">Code it with AI</a>
         </li>
       </ul>
     </section>

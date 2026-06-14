@@ -32,6 +32,10 @@ const AiPage = () => {
           <a className="text-decoration-none link-secondary"
             href="https://www.codeitwithai.com/">Code it with AI</a>
         </li>
+        <li>
+          <a className="text-decoration-none link-secondary"
+            href="https://agentskills.io/home">Agent Skills</a>
+        </li>
       </ul>
     </section>
   );

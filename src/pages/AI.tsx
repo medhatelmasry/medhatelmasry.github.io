@@ -36,6 +36,10 @@ const AiPage = () => {
           <a className="text-decoration-none link-secondary"
             href="https://agentskills.io/home">Agent Skills</a>
         </li>
+        <li>
+          <a className="text-decoration-none link-secondary"
+            href="https://upstash.com/blog/context7-mcp">Context 7 MCP Server</a>
+        </li>
       </ul>
     </section>
   );

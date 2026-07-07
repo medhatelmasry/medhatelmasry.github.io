@@ -65,6 +65,13 @@ const ArchivesPage = () => {
               href="https://www.youtube.com/watch?v=pRpeEdMmmQ0"
               >Shakira - Waka Waka (This Time for Africa) (The Official 2010 FIFA World Cup™ Song)</a>
           </li>
+          <li>
+            <a
+              className="text-decoration-none link-secondary"
+            href="https://www.youtube.com/watch?v=_ddH9eQ06Ag"
+          >
+            Harry Belafonte in Concert (Germany, 1988)</a>
+          </li>
         </ul>
 
         <hr />

@@ -40,6 +40,10 @@ const AiPage = () => {
           <a className="text-decoration-none link-secondary"
             href="https://upstash.com/blog/context7-mcp">Context 7 MCP Server</a>
         </li>
+        <li>
+          <a className="text-decoration-none link-secondary"
+            href="https://www.youtube.com/@JamesMontemagno">James Montemagno YouTube Channel</a>
+        </li>
       </ul>
     </section>
   );

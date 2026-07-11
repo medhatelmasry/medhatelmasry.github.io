@@ -155,22 +155,21 @@ const CookingPage = () => {
             >
           </li>
           <li>
-            <a
-              className="text-decoration-none link-secondary"
+            <a className="text-decoration-none link-secondary"
               href="https://gimmedelicious.com/basbousa-coconut-yogurt-semolina-cake/"
-              target="_blank"
-              >Basbousa (Coconut Yogurt Semolina Cake)</a
-            >
+              target="_blank">Basbousa (Coconut Yogurt Semolina Cake)</a>
+          </li>
+          <li>
+            <a className="text-decoration-none link-secondary"
+              href="https://www.allrecipes.com/recipe/222661/egyptian-lentil-soup/"
+              target="_blank">Egyptian Lentil Soup</a>
           </li>
         </ul>
         <h3>General</h3>
         <ul>
           <li>
-            <a
-              className="text-decoration-none link-secondary"
-              href="https://lovefoodhatewaste.ca/"
-              >Love Food Hate Waste</a
-            >
+            <a className="text-decoration-none link-secondary"
+              href="https://lovefoodhatewaste.ca/">Love Food Hate Waste</a>
           </li>
           <li>
             <a

@@ -44,6 +44,10 @@ const AiPage = () => {
           <a className="text-decoration-none link-secondary"
             href="https://www.youtube.com/@JamesMontemagno">James Montemagno YouTube Channel</a>
         </li>
+        <li>
+          <a className="text-decoration-none link-secondary"
+            href="https://github.com/dstorey87/copilot-guardrails">GitHub Copilot Guardrails System</a>
+        </li>
       </ul>
     </section>
   );

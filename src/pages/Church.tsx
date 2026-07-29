@@ -42,6 +42,13 @@ const ChurchPage = () => {
                 Demolition of structures at new land (May 2025)
             </a>
           </li>
+          <li>
+            <a
+              className="text-decoration-none link-secondary"
+            href="https://youtu.be/fOSiVZX25fY">
+            St. George Coptic Orthodox Church destruction after July 19, 2021 fire
+            </a>
+          </li>
           <li className="no-bullet">
             <hr />
           </li>

@@ -45,7 +45,9 @@ const EnglishPage = () => {
             <a className="text-decoration-none link-secondary"
               href="https://cgtn.com/tv">CGTN (China Online News)</a>
           </li>
-          <li><a className="text-decoration-none link-secondary" href="https://english.alarabiya.net/">Alarabiya</a></li>
+          <li>
+            <a className="text-decoration-none link-secondary" href="https://english.alarabiya.net/">Alarabiya</a>
+          </li>
         </ul>
       </section>
     );

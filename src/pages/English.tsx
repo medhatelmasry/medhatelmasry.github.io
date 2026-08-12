@@ -47,7 +47,7 @@ const EnglishPage = () => {
           </li>
           <li>
             <a className="text-decoration-none link-secondary" 
-              href="https://english.alarabiya.net/">Alarabiya</a>
+              href="https://english.alarabiya.net/">Alarabiya English</a>
           </li>
         </ul>
       </section>

@@ -53,8 +53,8 @@ const SoftwarePage = () => {
           </li>
           <li>
             <a className="text-decoration-none link-secondary" 
-              href="https://www.youtube.com/watch?v=Pp3EgOodc40">
-                ZoomIt for Mac: How AI Ported a 20+ Year-Old Windows Tool (Mark Russinovich)
+              href="https://github.com/microsoft/ZoomitForMac">
+                Sysinternals ZoomIt for Mac (Mark Russinovich)
             </a>
           </li>
         </ul>

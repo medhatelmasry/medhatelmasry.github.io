@@ -57,6 +57,12 @@ const SoftwarePage = () => {
                 Sysinternals ZoomIt for Mac (Mark Russinovich)
             </a>
           </li>
+          <li>
+            <a className="text-decoration-none link-secondary" 
+              href="https://www.youtube.com/@dotnet">
+                .NET Channel on YouTube
+            </a>
+          </li>
         </ul>
 
       </section>

@@ -51,6 +51,12 @@ const SoftwarePage = () => {
                 Today at Apple - Coquitlam Centre
             </a>
           </li>
+          <li>
+            <a className="text-decoration-none link-secondary" 
+              href="https://www.youtube.com/watch?v=Pp3EgOodc40">
+                ZoomIt for Mac: How AI Ported a 20+ Year-Old Windows Tool (Mark Russinovich)
+            </a>
+          </li>
         </ul>
 
       </section>

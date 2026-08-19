@@ -162,6 +162,12 @@ const ArchivesPage = () => {
             href="https://youtu.be/OPavcMhuDgA?si=p0tFldIXCPSv11b3"
           >YouTube: Abouna Daoud Lamei talking about Jews</a>
         </li>
+        <li>
+          <a
+            className="text-decoration-none link-secondary"
+            href="https://www.youtube.com/watch?v=a5EnGR1XqmU"
+          >Coptic Christianity Explained</a>
+        </li>
       </ul>
     </section>
   );

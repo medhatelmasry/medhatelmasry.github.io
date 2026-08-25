@@ -48,7 +48,7 @@ const AiPage = () => {
         </li>
         <li>
           <a className="text-decoration-none link-secondary"
-            href="https://agentskills.io/home">.Agent Skills Overview</a>
+            href="https://agentskills.io/home">Agent Skills Overview</a>
         </li>
         <li>
           <a className="text-decoration-none link-secondary"
@@ -69,6 +69,10 @@ const AiPage = () => {
         <li>
           <a className="text-decoration-none link-secondary"
             href="https://github.com/github/awesome-copilot">Awesome GitHub Copilot</a>
+        </li>
+        <li>
+          <a className="text-decoration-none link-secondary"
+            href="https://code.visualstudio.com/docs/agent-customization/agent-skills">Use Agent Skills in VS Code</a>
         </li>
       </ul>
 

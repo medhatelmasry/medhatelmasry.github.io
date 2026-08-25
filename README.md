@@ -1,30 +1,77 @@
-# React + TypeScript + Vite
+# Medhat Elmasry Personal Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a personal website and portfolio for Medhat Elmasry, built with React, TypeScript, Vite, and Bootstrap. It is designed as a multi-section content site that showcases interests, professional background, personal writing, and public resources.
 
-Currently, two official plugins are available:
+## Purpose
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The application serves as a digital home for:
 
-## Expanding the ESLint configuration
+- personal and professional information
+- Arabic and English content
+- cooking and travel interests
+- AI and software-related topics
+- archives, media, and public references
+- community and education resources
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+The site is structured as a small content-driven web application rather than a traditional business app. Each section is a route with its own page, making it easy to publish and maintain different categories of content.
 
-- Configure the top-level `parserOptions` property like this:
+## Site sections
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+The site includes routes such as:
+
+- Home
+- AI
+- Arabic
+- English
+- Cooking
+- Archives
+- Church
+- Handyman
+- MVP
+- Travel
+- TV
+- Video
+- Music
+- Images
+- Software
+- School Districts
+- Embassy
+- .NET BC Meetup Group
+
+## Stack
+
+- React 18
+- TypeScript
+- Vite
+- Bootstrap 5
+- React Router
+- GitHub Pages deployment
+
+## Local development
+
+```bash
+npm install
+npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Then open the local Vite URL in the browser.
+
+## Production build
+
+```bash
+npm run build
+```
+
+## Deploy to GitHub Pages
+
+This project is configured for GitHub Pages deployment:
+
+```bash
+npm run deploy
+```
+
+The deployment script uses `gh-pages` to publish the built app from the `dist` folder.
+
+## Notes
+
+This repository is a static personal website used to publish content and reference material online. It is not a starter app or template; it reflects the content and interests of the owner of the site.

@@ -68,7 +68,11 @@ const AiPage = () => {
         </li>
         <li>
           <a className="text-decoration-none link-secondary"
-            href="https://github.com/github/awesome-copilot">Awesome GitHub Copilot</a>
+            href="https://github.com/github/awesome-copilot">Awesome GitHub Copilot (github.com)</a>
+        </li>
+        <li>
+          <a className="text-decoration-none link-secondary"
+            href="https://awesome-copilot.github.com/">Awesome GitHub Copilot (website)</a>
         </li>
         <li>
           <a className="text-decoration-none link-secondary"

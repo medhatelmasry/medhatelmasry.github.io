@@ -28,14 +28,7 @@ const AiPage = () => {
           <a className="text-decoration-none link-secondary"
             href="https://github.com/github/awesome-copilot">🤖 Awesome GitHub Copilot</a>
         </li>
-        <li>
-          <a className="text-decoration-none link-secondary"
-            href="https://www.codeitwithai.com/">Code it with AI</a>
-        </li>
-        <li>
-          <a className="text-decoration-none link-secondary"
-            href="https://agentskills.io/home">Agent Skills</a>
-        </li>
+
         <li>
           <a className="text-decoration-none link-secondary"
             href="https://upstash.com/blog/context7-mcp">Context 7 MCP Server</a>
@@ -44,11 +37,41 @@ const AiPage = () => {
           <a className="text-decoration-none link-secondary"
             href="https://www.youtube.com/@JamesMontemagno">James Montemagno YouTube Channel</a>
         </li>
+
+      </ul>
+
+      <h1 className="text-center">Code with AI</h1>
+      <ul>
+        <li>
+          <a className="text-decoration-none link-secondary"
+            href="https://www.codeitwithai.com/">Code it with AI</a>
+        </li>
+        <li>
+          <a className="text-decoration-none link-secondary"
+            href="https://agentskills.io/home">.Agent Skills Overview</a>
+        </li>
         <li>
           <a className="text-decoration-none link-secondary"
             href="https://github.com/dstorey87/copilot-guardrails">GitHub Copilot Guardrails System</a>
         </li>
+        <li>
+          <a className="text-decoration-none link-secondary"
+            href="https://agentskills.io/home">Agent Skills</a>
+        </li>
+        <li>
+          <a className="text-decoration-none link-secondary"
+            href="https://github.com/anthropics/skills">Anthropic Skills</a>
+        </li>
+        <li>
+          <a className="text-decoration-none link-secondary"
+            href="https://github.com/dotnet/skills">.NET Skills</a>
+        </li>
+        <li>
+          <a className="text-decoration-none link-secondary"
+            href="https://github.com/github/awesome-copilot">Awesome GitHub Copilot</a>
+        </li>
       </ul>
+
     </section>
   );
 };

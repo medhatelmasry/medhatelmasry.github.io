@@ -1,6 +1,6 @@
-import './SchoolDistricts.tsx.css';
+import './Schools.tsx.css';
 
-const SchoolDistricts = () => {
+const Schools = () => {
   return (
     <section>
       <h1 className="text-center">School Districts</h1>
@@ -55,7 +55,31 @@ const SchoolDistricts = () => {
         </li>
       </ul>
 
+      <h1 className="text-center">Colleges</h1>
+      <ul>
+        <li>
+          <a
+            className="text-decoration-none link-secondary"
+            href="https://www.bcit.ca">
+            BCIT
+          </a>
+        </li>
+        <li>
+          <a
+            className="text-decoration-none link-secondary"
+            href="https://www.cppr.ca/">
+            BC College Pension Plan Retirees
+          </a>
+        </li>
+        <li>
+          <a
+            className="text-decoration-none link-secondary"
+            href="https://college.pensionsbc.ca/">
+            College Pension Plan
+          </a>
+        </li>
+      </ul>
     </section>
   );
 };
-export default SchoolDistricts;
+export default Schools;

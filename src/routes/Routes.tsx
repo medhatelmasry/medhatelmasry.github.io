@@ -14,7 +14,7 @@ import VideoPage from "../pages/Video";
 import ImagesPage from "../pages/Images";
 import MusicPage from "../pages/Music";
 import SoftwarePage from "../pages/Software";
-import SchoolDistricts from "../pages/SchoolDistricts";
+import Schools from "../pages/Schools";
 import AiPage from "../pages/AI";
 import EmbassyPage from '../pages/Embassy';
 import NetBCPage from '../pages/NetBC';
@@ -91,8 +91,8 @@ export const router = createBrowserRouter([
         element: <SoftwarePage />,
       },
       {
-        path: "/school-districts",
-        element: <SchoolDistricts />,
+        path: "/schools",
+        element: <Schools />,
       },
       {
         path: "/embassy",

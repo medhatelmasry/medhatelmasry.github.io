@@ -86,6 +86,13 @@ const MVPPage = () => {
               target="_blank"
             >Dev Days</a>
           </li>
+          <li>
+            <a
+              className="text-decoration-none link-secondary"
+              href="https://github.com/dotnet/sdk/tree/release/dnup/documentation/general/dotnetup"
+              target="_blank"
+          >dotnetup</a>
+          </li>
         </ul>
 
     </section>

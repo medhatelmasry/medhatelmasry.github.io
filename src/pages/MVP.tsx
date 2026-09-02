@@ -79,6 +79,13 @@ const MVPPage = () => {
               target="_blank"
               >.NET User Groups registered with the .NET Foundation</a>
           </li>
+          <li>
+            <a
+              className="text-decoration-none link-secondary"
+              href="https://github.com/github/Dev-Days"
+              target="_blank"
+            >Dev Days</a>
+          </li>
         </ul>
 
     </section>

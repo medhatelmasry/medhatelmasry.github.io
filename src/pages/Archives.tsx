@@ -152,6 +152,12 @@ const ArchivesPage = () => {
             href="https://www.msn.com/en-ca/news/politics/a-murderous-thug-has-dirt-on-trump-nothing-else-explains-this-madness-opinion/ar-AA1XV7ft?ocid=msedgntp&pc=U531&cvid=69b0683581ec41a88436c4ac8dab64d6&ei=10"
           >A murderous thug has dirt on Trump. Nothing else explains this madness | Opinion</a>
           </li>
+          <li>
+            <a
+              className="text-decoration-none link-secondary"
+            href="https://www.youtube.com/watch?v=F77DjeDVAyk"
+          >The African Dictator Who ENJOYED Slaughtering His Own People: Mengistu Haile Mariam</a>
+          </li>
         </ul>
       <hr />
       <h1 className="text-center">Religious</h1>

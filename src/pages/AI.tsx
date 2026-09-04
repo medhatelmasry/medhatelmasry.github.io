@@ -78,6 +78,10 @@ const AiPage = () => {
           <a className="text-decoration-none link-secondary"
             href="https://code.visualstudio.com/docs/agent-customization/agent-skills">Agent Skills in VS Code</a>
         </li>
+        <li>
+          <a className="text-decoration-none link-secondary"
+            href="https://lovable.dev/">https://lovable.dev/</a>
+        </li>
       </ul>
 
     </section>

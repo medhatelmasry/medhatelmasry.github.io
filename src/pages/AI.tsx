@@ -37,6 +37,10 @@ const AiPage = () => {
           <a className="text-decoration-none link-secondary"
             href="https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/">Demystifying AI Terms</a>
         </li>
+        <li>
+          <a className="text-decoration-none link-secondary"
+            href="https://github.blog/ai-and-ml/">AI & ML video blog on GitHub</a>
+        </li>
 
       </ul>
 

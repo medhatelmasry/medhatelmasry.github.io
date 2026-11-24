@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#512bd4">
+	<title>.NET BC Workshop: GitHub Copilot SDK</title>
+	<style>
+		:root {
+			--ink: #182033;
+			--muted: #68718a;
+			--purple: #512bd4;
+			--purple-dark: #3d1c9a;
+			--blue: #2563eb;
+			--surface: #ffffff;
+			--line: #e7e9f1;
+			--background: #f4f6fb;
+		}
+
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			margin: 0;
+			min-height: 100vh;
+			font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+			color: var(--ink);
+			background:
+				radial-gradient(circle at 85% 10%, rgba(81, 43, 212, 0.12), transparent 24rem),
+				var(--background);
+		}
+
+		.page-shell {
+			width: min(1120px, calc(100% - 40px));
+			margin: 0 auto;
+			padding: 40px 0 64px;
+		}
+
+		.topbar {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			margin-bottom: 28px;
+		}
+
+		.brand {
+			display: flex;
+			align-items: center;
+			gap: 12px;
+			font-weight: 800;
+			letter-spacing: -0.02em;
+		}
+
+		.brand-mark {
+			display: grid;
+			width: 42px;
+			height: 42px;
+			place-items: center;
+			border-radius: 12px;
+			color: #fff;
+			background: linear-gradient(135deg, var(--purple), #7857db);
+			box-shadow: 0 8px 20px rgba(81, 43, 212, 0.22);
+			font-size: 15px;
+		}
+
+		.date-pill {
+			padding: 8px 12px;
+			border: 1px solid var(--line);
+			border-radius: 999px;
+			color: var(--muted);
+			background: rgba(255, 255, 255, 0.8);
+			font-size: 14px;
+			font-weight: 700;
+		}
+
+		.hero {
+			position: relative;
+			overflow: hidden;
+			margin-bottom: 24px;
+			padding: 48px;
+			border-radius: 24px;
+			color: #fff;
+			background: linear-gradient(120deg, #24136e 0%, var(--purple) 58%, #7257d5 100%);
+			box-shadow: 0 24px 60px rgba(58, 38, 125, 0.18);
+		}
+
+		.hero::after {
+			content: "";
+			position: absolute;
+			right: -90px;
+			bottom: -180px;
+			width: 360px;
+			height: 360px;
+			border: 54px solid rgba(255, 255, 255, 0.08);
+			border-radius: 50%;
+		}
+
+		.eyebrow {
+			margin: 0 0 12px;
+			color: #ddd6ff;
+			font-size: 13px;
+			font-weight: 800;
+			letter-spacing: 0.14em;
+			text-transform: uppercase;
+		}
+
+		h1 {
+			position: relative;
+			z-index: 1;
+			max-width: 760px;
+			margin: 0;
+			font-size: clamp(38px, 6vw, 68px);
+			line-height: 1.02;
+			letter-spacing: -0.055em;
+		}
+
+		.hero-meta {
+			position: relative;
+			z-index: 1;
+			display: flex;
+			align-items: center;
+			gap: 10px;
+			margin: 20px 0 0;
+			color: #eeeaff;
+			font-size: 16px;
+		}
+
+		.hero-meta::before {
+			content: "";
+			width: 8px;
+			height: 8px;
+			border-radius: 50%;
+			background: #a8d8ff;
+			box-shadow: 0 0 0 5px rgba(168, 216, 255, 0.12);
+		}
+
+		.workshop-grid {
+			display: grid;
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+			gap: 18px;
+		}
+
+		.card {
+			position: relative;
+			display: flex;
+			min-height: 190px;
+			flex-direction: column;
+			justify-content: space-between;
+			padding: 26px;
+			border: 1px solid var(--line);
+			border-radius: 18px;
+			color: var(--ink);
+			background: var(--surface);
+			box-shadow: 0 10px 30px rgba(31, 42, 68, 0.06);
+			text-decoration: none;
+			transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+		}
+
+		.card:hover,
+		.card:focus-visible {
+			transform: translateY(-4px);
+			border-color: #c9c1ea;
+			box-shadow: 0 18px 38px rgba(58, 38, 125, 0.12);
+		}
+
+		.card:focus-visible {
+			outline: 3px solid rgba(81, 43, 212, 0.22);
+			outline-offset: 3px;
+		}
+
+		.card-label {
+			display: inline-flex;
+			align-items: center;
+			width: fit-content;
+			margin-bottom: 20px;
+			padding: 6px 9px;
+			border-radius: 7px;
+			color: var(--purple-dark);
+			background: #f0edff;
+			font-size: 12px;
+			font-weight: 800;
+			letter-spacing: 0.04em;
+			text-transform: uppercase;
+		}
+
+		.card-title {
+			margin: 0;
+			font-size: clamp(18px, 2vw, 23px);
+			line-height: 1.35;
+			letter-spacing: -0.025em;
+		}
+
+		.card-footer {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			margin-top: 24px;
+			color: var(--blue);
+			font-size: 14px;
+			font-weight: 800;
+		}
+
+		.arrow {
+			font-size: 20px;
+			line-height: 1;
+			transition: transform 180ms ease;
+		}
+
+		.card:hover .arrow {
+			transform: translateX(4px);
+		}
+
+		@media (max-width: 720px) {
+			.page-shell {
+				width: min(100% - 28px, 1120px);
+				padding-top: 20px;
+			}
+
+			.topbar {
+				margin-bottom: 18px;
+			}
+
+			.hero {
+				padding: 32px 24px;
+				border-radius: 18px;
+			}
+
+			.workshop-grid {
+				grid-template-columns: 1fr;
+			}
+
+			.card {
+				min-height: 170px;
+			}
+		}
+
+		@media (max-width: 440px) {
+			.brand-name {
+				display: none;
+			}
+
+			h1 {
+				font-size: 38px;
+			}
+
+			.date-pill {
+				font-size: 12px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<main class="page-shell">
+		<header class="topbar">
+			<div class="brand" aria-label=".NET BC">
+				<div class="brand-mark">.NET</div>
+				<span class="brand-name">British Columbia</span>
+			</div>
+			<div class="date-pill">November 24, 2026</div>
+		</header>
+
+		<section class="hero">
+			<p class="eyebrow">Developer Workshop</p>
+			<h1>GitHub Copilot SDK</h1>
+			<p class="hero-meta">Build practical AI-powered applications with .NET</p>
+		</section>
+
+		<section class="workshop-grid" aria-label="Workshop resources">
+			<a class="card" target="_blank" rel="noopener noreferrer" href="https://blog.medhat.ca/2026/11/build-simple-ai-powered-weather.html">
+				<div>
+					<span class="card-label">Workshop 1</span>
+					<h2 class="card-title">Build an AI-powered weather assistant</h2>
+				</div>
+				<div class="card-footer">
+					<span>Open workshop</span>
+					<span class="arrow" aria-hidden="true">→</span>
+				</div>
+			</a>
+
+			<a class="card" target="_blank" rel="noopener noreferrer" href="https://blog.medhat.ca/2026/11/develop-blazor-app-with-github-copilot.html">
+				<div>
+					<span class="card-label">Workshop 2</span>
+					<h2 class="card-title">Develop a smart Blazor application</h2>
+				</div>
+				<div class="card-footer">
+					<span>Open workshop</span>
+					<span class="arrow" aria-hidden="true">→</span>
+				</div>
+			</a>
+
+			<a class="card" target="_blank" rel="noopener noreferrer" href="https://gist.githubusercontent.com/medhatelmasry/2ae7a36d5392f862b0d1039b2a52b9b4/raw/45533eda6c43ce439dbc65c37a7fbdef01546c2d/students.json">
+				<div>
+					<span class="card-label">Reference Data</span>
+					<h2 class="card-title">Student source JSON</h2>
+				</div>
+				<div class="card-footer">
+					<span>View data</span>
+					<span class="arrow" aria-hidden="true">→</span>
+				</div>
+			</a>
+
+			<a class="card" target="_blank" rel="noopener noreferrer" href="https://ai4school-e8dgaaaac7fvh8fk.westus3-01.azurewebsites.net/">
+				<div>
+					<span class="card-label">Demo</span>
+					<h2 class="card-title">Deployed Student Admin AI Agent</h2>
+				</div>
+				<div class="card-footer">
+					<span>View project</span>
+					<span class="arrow" aria-hidden="true">→</span>
+				</div>
+			</a>
+		</section>
+	</main>
+</body>
+</html>
